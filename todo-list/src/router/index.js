@@ -8,11 +8,11 @@ const router = createRouter({
       children: [
         {
           path: '',
-          name: 'Tarefas',
+          name: 'To-do',
           // route level code-splitting
           // this generates a separate chunk (about.[hash].js) for this route
           // which is lazy-loaded when the route is visited.
-          component: () => import(/* webpackChunkName: "home" */ '@/views/Tarefas.vue'),
+          component: () => import(/* webpackChunkName: "home" */ '@/views/To-do.vue'),
         },
       ],
     },
